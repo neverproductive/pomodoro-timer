@@ -2,7 +2,7 @@ import './timer.sass';
 import Break from './components/Break/Break'
 import Session from './components/Session/Session'
 import Controls from './components/Controls/Controls'
-import ThemeToggle from './components/ThemeToggle/ThemeToggle';
+import Logo from './components/Logo/Logo';
 import { useStateValue } from './contexts/stateProvider';
 import { useClockify } from './hooks/useClockify';
 
@@ -13,15 +13,15 @@ const Timer = () => {
 
   return (
     <div className="timer">
-      <h2 className='timer__maintitle'>{projectName}</h2>
+      <h1 className='timer__maintitle'>{projectName}</h1>
       <h3 id='timer-label' className='timer__label'>{timerLabel}</h3>
-      <h1 id='time-left' className='timer__time'>{clockifiedValue}</h1>
+      <h2 id='time-left' className='timer__time'>{clockifiedValue}</h2>
       <Controls />
       <div className="timer__controllers">
         <Break />
         <Session />
       </div>
-      <ThemeToggle />
+      <Logo />
     </div>
   );
 }

@@ -6,14 +6,16 @@ import Timer from './Timer';
 import { StateProvider } from "./contexts/stateProvider";
 import reducer, { initialState } from "./reducer";
 import ThemeProvider from './contexts/themeProvider';
-import Credits from './components/Credits/Credits';
+import Links from './components/Links/Links';
+import Background from './components/Background/Background';
 
 ReactDOM.render(
   <React.StrictMode>
     <StateProvider reducer={reducer} initialState={initialState}>
       <ThemeProvider>
+        <Background />
         <Timer />
-        <Credits />
+        <Links />
       </ThemeProvider>
     </StateProvider>
   </React.StrictMode>,
