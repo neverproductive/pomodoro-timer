@@ -1,7 +1,7 @@
 {
-  "name": "react-pomodoro-clock",
+  "name": "pomodoro-timer",
   "version": "0.1.0",
-  "homepage": "https://neverproductive.github.io/react-pomodoro-clock",
+  "homepage": "https://pomodoro-timer.neverproductive.com/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
@@ -45,7 +45,7 @@
   },
   "guppy": {
     "id": "a01ae020-9210-11eb-a526-bffe0af5e401",
-    "name": "react-pomodoro-clock",
+    "name": "pomodoro-timer",
     "type": "create-react-app",
     "color": "#AA00FF",
     "icon": null,

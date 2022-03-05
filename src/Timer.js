@@ -2,7 +2,6 @@ import './timer.sass';
 import Break from './components/Break/Break'
 import Session from './components/Session/Session'
 import Controls from './components/Controls/Controls'
-import Logo from './components/Logo/Logo';
 import { useStateValue } from './contexts/stateProvider';
 import { useClockify } from './hooks/useClockify';
 
@@ -21,7 +20,6 @@ const Timer = () => {
         <Break />
         <Session />
       </div>
-      <Logo />
     </div>
   );
 }
